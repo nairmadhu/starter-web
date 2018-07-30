@@ -8,3 +8,5 @@ just had to build the docker configuration once, and all our developers could no
 started with a simple “docker run” command. Irrespective of what underlying OS they
 run, all they needed to do was to make sure they had Docker installed on their
 systems
+
+Added  more text again
