@@ -1,0 +1,10 @@
+So I needed something that could help us with the compatibility issue. And
+something that will allow us to modify or change these components without affecting
+the other components and even modify the underlying operating systems as
+required. And that search landed me on Docker. With Docker I was able to run each
+component in a separate container – with its own libraries and its own dependencies.
+All on the same VM and the OS, but within separate environments or containers. We
+just had to build the docker configuration once, and all our developers could now get
+started with a simple “docker run” command. Irrespective of what underlying OS they
+run, all they needed to do was to make sure they had Docker installed on their
+systems
